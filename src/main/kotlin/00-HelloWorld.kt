@@ -1,3 +1,3 @@
 fun main() {
-    print("Hello World yusmnn")
+    print("Hello World")
 }
