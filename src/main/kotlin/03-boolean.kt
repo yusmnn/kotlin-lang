@@ -3,7 +3,7 @@
 fun main() {
     /*
     * Tipe data Boolean = true atau false
-    * boolean di representasikan "Boolean" bkan "bool"
+    * boolean di representasikan "Boolean" bukan "bool"
     */
 
     var boolean1: Boolean = true

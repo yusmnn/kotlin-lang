@@ -46,5 +46,39 @@ fun main() {
     println("$fullName2")
     println(lengtgFullName)
 
+    /*
+     // pada dasarnya String merupakan kumpulan Char yang berbentuk Array,
+     // sehingga kita bisa mendapatkan karakter tunggal dengan mudah.
+    */
+    val myname = "Yusman"
+    val indexName = myname[0]
+
+    println("Index pertama String myName = $indexName")
+
+    /*
+        * escaped String -> mengurangi ambiguitas nilai yang berada didalam string
+        * \t: menambah tab ke dalam teks.
+        * \n: membuat baris baru di dalam teks.
+        * \’: menambah karakter single quote kedalam teks.
+        * \”: menambah karakter double quote kedalam teks.
+        * \\: menambah karakter backslash kedalam teks.
+    */
+
+    val statement = "Kotlin is \"Awesome!\""
+    val statement2 = "Kotlin is \tAwesome!"
+    val statement3 = "Kotlin is \nAwesome!"
+    val statement4 = "Kotlin is \'Awesome!\'"
+    val statement5 = "Kotlin is \"Awesome!\""
+    val statement6 = "Kotlin is \\Awesome!\\"
+
+    println(statement)
+    println(statement2)
+    println(statement3)
+    println(statement4)
+    println(statement5)
+    println(statement6)
+
+
+
 
 }

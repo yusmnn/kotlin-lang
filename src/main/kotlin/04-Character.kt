@@ -17,4 +17,9 @@ fun main() {
     print(char3)
     print(char4)
     print(char5)
+
+    var value: Char = 'A'
+    println("\n" + value++) // tipe data char mendukung operasi increment decrement
+    println(value++)
+    println(value++)
 }
