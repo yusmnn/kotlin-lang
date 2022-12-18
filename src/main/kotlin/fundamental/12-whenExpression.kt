@@ -5,6 +5,7 @@ fun main() {
     * when -> salah satu kata kunci unut percabangan
     * when mirip dengan switch case di bahasa pemrograman lain
     * when biasanya digunakan untuk pengecekan kondisi dalam satu variable
+    * else adalah hal wajib jika kita menggunakan when expression untuk mengembalikan nilai.
     */
 
     val i = "b"
